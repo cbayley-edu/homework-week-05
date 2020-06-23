@@ -11,6 +11,7 @@ The current date will appear at the top of your planner:
 
 ![day planner header](./assets/day-planner-header.jpg)
 
+
 Times that have passed will appear in gray:
 
 The current time will appear in pink:

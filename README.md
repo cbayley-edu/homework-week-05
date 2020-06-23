@@ -18,7 +18,6 @@ The current time will appear in pink:
 
 Future times will appear in green:
 
-
 ![day planner time slots](./assets/past-present-future.jpg)
 
 
@@ -27,6 +26,7 @@ Future times will appear in green:
 In any available time slot, enter your task and click the Save button:
 
 ![day planner enter task](./assets/enter-task.jpg)
+
 
 If you want to clear an entry, simply press the clear button.
 

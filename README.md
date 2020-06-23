@@ -1,46 +1,31 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Welcome to your Day Planner!
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Don't miss a single appointment anymore! Track your daily tasks in this handy day planner.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+Click here to open the application:  https://cbayley-edu.github.io/homework-week-05/index.html
 
-## User Story
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## Overview of interface
 
-## Acceptance Criteria
+The current date will appear at the top of your planner:
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+![day planner header](./assets/day-planner-header.jpg)
 
-The following animation demonstrates the application functionality:
+Times that have passed will appear in gray:
+The current time will appear in pink:
+Future times will appear in green:
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+![day planner time slots](./assets/past-present-future.jpg)
 
-## Review
 
-You are required to submit the following for review:
+## How to use the application
 
-* The URL of the deployed application.
+In any available time slot, enter your task and click the Save button:
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+![day planner enter task](./assets/enter-task.jpg)
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+If you want to clear an entry, simply press the clear button.
+
+![day planner clear task](./assets/clear-task.jpg)
+
+
